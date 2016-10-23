@@ -7,11 +7,11 @@ from prijavi.items import PrijaviItem
 
 class MainSimpleSpider(scrapy.Spider):
     name = "main_simple"
-    allowed_domains = ["govornaomraza.mk", "prijavinasilstvo.mk"]
+    allowed_domains = ["govornaomraza.mk", "prijavinasilstvo.mk", "zlostorstvaodomraza.com"]
     start_urls = (
         'http://govornaomraza.mk/reports/fetch_reports?page=1',
         'http://prijavinasilstvo.mk/reports/fetch_reports?page=1',
-        'http://www.zlostorstvaodomraza.com/reports/fetch_reports?page=1',
+        'http://zlostorstvaodomraza.com/reports/fetch_reports?page=1',
     )
 
 
