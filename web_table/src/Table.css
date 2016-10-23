@@ -1,0 +1,52 @@
+.resize-container {
+  table-layout: fixed;
+  display: table;
+  width: 100%;
+}
+
+.resize-value {
+  display: inline-block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  word-break: break-all;
+  word-wrap: break-word;
+  width: calc(100% - 1px);
+}
+
+.resize-handle {
+  outline: solid 1px black;
+  cursor: col-resize;
+  float: right;
+  width: 0;
+}
+
+.sort-order {
+  margin-left: 0.5em;
+}
+
+.table-container {
+	margin: auto;
+	width: 75%;
+}
+
+.odd-row {
+	background-color: rgba(128, 128, 128, 0.3);
+}
+
+thead {
+	background-color: rgba(128, 128, 128, 0.5);
+}
+
+.visibility-container {
+	background-color: rgba(128, 128, 128, 0.5);
+}
+
+.pure-table td, .pure-table th {
+    border-left: 1px solid #cbcbcb;
+    border-width: 0 0 0 1px;
+    font-size: inherit;
+    margin: 0;
+    overflow: visible;
+    padding: .5em 1em;
+}
