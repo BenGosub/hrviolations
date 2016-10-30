@@ -149,7 +149,7 @@ getColumns() {
           rows={tableRowsReversed}
           rowKey="id"
           sortingColumns={sortingColumns}
-          tableWidth={1400}
+          tableWidth={1200}
           tableHeight={600}
           columns={visibleColumns}
           query={query}

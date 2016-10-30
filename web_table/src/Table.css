@@ -27,7 +27,7 @@
 
 .table-container {
 	margin: auto;
-	width: 75%;
+	width: 1200px;
 }
 
 .odd-row {
@@ -49,4 +49,8 @@ thead {
     margin: 0;
     overflow: visible;
     padding: .5em 1em;
+}
+
+. pure-table pure-table-striped {
+  margin: auto;
 }

@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
-import logo from './logo.jpg';
+import logoOne from './logo_1.jpg';
+import logoTwo from './logo_2.gif';
+import logoThree from './logo_3.png';
 import './App.css';
 import MainTable from './MainTable.js';
 import Fetch from 'react-fetch'
@@ -9,8 +11,10 @@ class App extends Component {
     return (
       <div className="App">
         <div className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h2>HRVIOLATIONS</h2>
+          <img src={logoOne} className="App-logo" alt="logo" />
+          <img src={logoTwo} className="App-logo" alt="logo" />
+          <img src={logoThree} className="App-logo" alt="logo" />
+          <h2>Агрегатор на случаите на говор на омраза, злосторства од омраза и дискриминација базирани на сексуална ориентација и/или родов идентитет</h2>
         </div>
         <div className="App-intro">
           Агрегатор на податоци од:
